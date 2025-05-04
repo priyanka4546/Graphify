@@ -1,2 +1,5 @@
-.venv
+.venv_global
+.venv_gsheet
 .env
+credentials.json
+token.json
