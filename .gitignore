@@ -1,5 +1,5 @@
 .venv_global
 .venv_gsheet
-.env
+.env.local
 credentials.json
 token.json
