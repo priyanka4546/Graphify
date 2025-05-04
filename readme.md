@@ -42,11 +42,13 @@ Download Neo4j from: [Neo4j.download](https://neo4j.com/download/)
 
 Use the following connection settings (or set them in a `.env` file):
 
-   URI = "bolt://localhost:7687"
+  ```
+  URI = "bolt://localhost:7687"
 
-   USER = "neo4j"
+  USER = "neo4j"
 
-   PASSWORD = "12345678"
+  PASSWORD = "12345678"
+```
 
 **Tip :**
 Create a `.env` file in the project root and add the above variables.
