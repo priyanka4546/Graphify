@@ -1,74 +1,81 @@
-Neo4j FastAPI Application
-=========================
+# Neo4j FastAPI Application
 
 This is a FastAPI-based backend application that integrates with a Neo4j graph database.
 
--------------------------
-🚀 Getting Started
--------------------------
+---
+## 🚀 Getting Started
 
-1. Clone the Repository:
+1. **Clone the Repository :**
 
-   git clone <your-repo-url>
-   cd <your-project-folder>
+```
+   git clone <repo-url> 
+   cd <project-folder>
+```
 
-2. Set Up Virtual Environment:
+2. **Set Up Virtual Environment :**
 
-   python -m venv .venv
+ ```
+    python -m venv .venv
+ ```
 
    On Windows:
+ ```
    .venv\Scripts\activate
+```
 
    On Unix/macOS:
+```
    source .venv/bin/activate
+ ```
 
-3. Install Dependencies:
-
+3. **Install Dependencies :**
+```
    pip install -r requirements.txt
+```
 
--------------------------
-🛠️ Neo4j Setup
--------------------------
+---
+## 🛠️ Neo4j Setup
 
 Make sure Neo4j is installed and running locally.
 
-Download Neo4j from: https://neo4j.com/download/
+Download Neo4j from: [Neo4j.download](https://neo4j.com/download/)
 
-Use the following connection settings (or set them in a .env file):
+Use the following connection settings (or set them in a `.env` file):
 
    URI = "bolt://localhost:7687"
+
    USER = "neo4j"
+
    PASSWORD = "12345678"
 
-Tip:
+**Tip :**
 Create a `.env` file in the project root and add the above variables.
 
--------------------------
-🏃 Run the Application
--------------------------
+---
+## 🏃 Run the Application
 
-Run the FastAPI server with:
-
+Run the FastAPI server with :
+```
    uvicorn main:app --reload
+```
 
-Visit:
-   http://127.0.0.1:8000           - for base API
-   http://127.0.0.1:8000/docs      - for Swagger UI API docs
+**Visit :**
+  + [Base API](http://127.0.0.1:8000)           - for base API
+  + [Swagger UI](http://127.0.0.1:8000/docs)     - for Swagger UI API docs
 
--------------------------
+----
 
-✅ Summary
--------------------------
+## ✅ Summary
 
 - Python backend using FastAPI
 - Connects to Neo4j via `neo4j` driver
 - Configurable via `.env`
 - Run locally using `uvicorn`
 
--------------------------
-🔗 Useful Links
--------------------------
+---
+## 🔗 Useful Links
 
-- FastAPI: https://fastapi.tiangolo.com/
-- Neo4j: https://neo4j.com/docs/
-- Uvicorn: https://www.uvicorn.org/
+
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Neo4j](https://neo4j.com/docs/)
+- [Uvicorn](https://www.uvicorn.org/)
