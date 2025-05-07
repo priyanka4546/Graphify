@@ -15,17 +15,21 @@ This is a FastAPI-based backend application that integrates with a Neo4j graph d
 2. **Set Up Virtual Environment :**
 
  ```
-    python -m venv .venv
+    python -m venv .venv_gsheet
+.venv_gsheet\Scripts\activate
+
+python -m venv .venv_global
+.venv_global\Scripts\activate
  ```
 
    On Windows:
  ```
-   .venv\Scripts\activate
+   .{name}\Scripts\activate
 ```
 
    On Unix/macOS:
 ```
-   source .venv/bin/activate
+   source .{name}/bin/activate
  ```
 
 3. **Install Dependencies :**
